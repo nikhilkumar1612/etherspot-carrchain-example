@@ -1,0 +1,22 @@
+{
+  "name": "etherspot-carrchain-example",
+  "version": "1.0.0",
+  "description": "example to use etherspot-modular-sdk[https://github.com/etherspot/etherspot-modular-sdk/] for gasless transactions on carrchain",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "paymaster": "./node_modules/.bin/tsx ./examples/paymaster.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@etherspot/modular-sdk": "^5.1.2",
+    "dotenv": "^16.5.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.4",
+    "viem": "^2.29.2"
+  }
+}
